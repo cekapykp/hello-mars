@@ -18,3 +18,12 @@ Installing dependencies : You will need Node, Watchman, the React Native command
 
 3.9 - Installing an iOS Simulator in Xcode : 
   To install a simulator, open Xcode > Preferences... and select the Components tab. Select a simulator with the corresponding version of iOS you wish to use.
+
+4 - CocoaPods :
+  CocoaPods is built with Ruby and it will be installable with the default Ruby available on macOS. You can use a Ruby Version manager, however we recommend that you use the standard Ruby available on macOS unless you know what you're doing.
+
+       sudo gem install cocoapods
+       
+NOTE : if you are using M1 mac air pro, you must this :
+  1 - Open your Terminal under Rosetta and run sudo gem install ffi in terminal.
+  2 - Open Finder > Applications > Utilities > Terminal > Right Click > Get Info > Open Using Rosetta
